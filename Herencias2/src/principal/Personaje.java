@@ -40,6 +40,12 @@ public class Personaje {
 			System.out.println(this.toString());
 			
 	}public void play() {
-		System.out.println(this.toString());
+		
+		
+}public int recibirDanio(int cantidad) {
+	puntosVida+=cantidad;
+	
+	
+	return puntosVida;	
 }
 }
